@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>La Pinta</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+	<h1>Fichas t&eacutecnicas</h1>
+	<div class="navbar">
+  	<a href=file://E:/Web/index.html>P&aacutegina principal</a>
+	<a href="https://www.google.com/maps/d/viewer?mid=1q6ByHRBQSrJ0H8VKwSahFVDEOMA&ll=-3.81666561775622e-14%2C-2.4719208281250076&z=1"  target=”_blank”>Ruta del viaje en Google Maps</a>
+	<a href="https://www.youtube.com/watch?v=BeU8fCMVdTU&feature=youtu.be"  target=”_blank”>V&iacutedeo</a>
+	<a href=file://E:/Web/Pagina4.html>Fichas t&eacutecnicas</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Embarcaciones
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    	<a href=file://E:/Web/Pagina1.html>La Pinta</a>
+	<a href=file://E:/Web/Pagina2.html>La Ni&ntildea</a>
+	<a href=file://E:/Web/Pagina3.html>La Santa Mar&iacutea</a>
+  </div>
+  </div> 
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+	</br>
+	<table class="egt">
+	<tr>
+	<th scope="row">Embarcaci&oacuten</th>
+	<th>Tipo</th>
+	<th>A&ntildeo de fabricaci&oacuten</th>
+	<th>Desplazamiento</th>
+	<th>Due&ntildeo original</th>
+	</tr>
+	<tr>
+	<th>La Pinta</th>
+	<td>Carabela</td>
+	<td>1441</td>
+	<td>60-70t</td>
+	<td>Crist&oacutebal Quintero</td>
+	</tr>
+	<tr>
+	<th>La Ni&ntildea</th>
+	<td>Carabela</td>
+	<td>1488</td>
+	<td>60-70t</td>
+	<td>Juan Ni&ntildeo</td>
+	</tr>
+	<tr>
+	<th>La Santa Mar&iacutea</th>
+	<td>Nao</td>
+	<td>1460</td>
+	<td>150t</td>
+	<td>Juan de la Cosa</td>
+	</tr>
+	</table>
+	<h2>Multimedia</h2>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/6umYTK-MFW4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
+

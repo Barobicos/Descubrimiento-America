@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>La Ni&ntildea</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+	<h1>La Ni&ntildea</h1>
+	<div class="navbar">
+  	<a href=file://E:/Web/index.html>P&aacutegina principal</a>
+	<a href="https://www.google.com/maps/d/viewer?mid=1q6ByHRBQSrJ0H8VKwSahFVDEOMA&ll=-3.81666561775622e-14%2C-2.4719208281250076&z=1"  target=”_blank”>Ruta del viaje en Google Maps</a>
+	<a href="https://www.youtube.com/watch?v=BeU8fCMVdTU&feature=youtu.be"  target=”_blank”>V&iacutedeo</a>
+	<a href=file://E:/Web/Pagina4.html>Fichas t&eacutecnicas</a>
+  <div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()">Embarcaciones
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    	<a href=file://E:/Web/Pagina1.html>La Pinta</a>
+	<a href=file://E:/Web/Pagina2.html>La Ni&ntildea</a>
+	<a href=file://E:/Web/Pagina3.html>La Santa Mar&iacutea</a>
+  </div>
+  </div> 
+</div>
+<script>
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+  var myDropdown = document.getElementById("myDropdown");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+
+</script>
+	</br><p>Fue bautizada como Santa Clara, pero popularmente siempre ha sido conocida como La Ni&ntildea porque originalmente perteneci&oacute al armador Juan Ni&ntildeo.</br>
+	Historia</p>
+	<h2>Tripulantes</h2>
+	<p>1. Vicente Y&aacute&ntildeez, capit&aacuten.</br>
+	2. Juan Ni&ntildeo, maestre y propietario</br>
+	3. Sancho Ruiz, piloto</br>
+	4. Bartolom&eacute Garc&iacuttea, contramaestre</br>
+	5. Diego Lorenzo, alguacil.</br>
+	-. Siete marineros y cuatro grumetes.</br>
+	-. Dos trabajadores.</br>
+	</p>
+	<h2>Curiosidad</h2>
+	<p>Cuando la Santa Mar&iacutea naufrag&oacute, Col&oacuten nombr&oacute a esta nave capitana de la expedici&oacuten y regres&oacute a Espa&ntildea en ella.</p>
+	<h2>Multimedia</h2><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/LaNi%C3%B1a.jpg/220px-LaNi%C3%B1a.jpg" width="440" height="542"/>
+	<iframe width="700" height="394" src="https://www.youtube.com/embed/ObKk7TwJU-k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
